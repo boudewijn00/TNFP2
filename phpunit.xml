@@ -1,0 +1,12 @@
+<phpunit bootstrap="tests/bootstrap.php" colors="true">
+    <testsuites>
+        <testsuite name="Tnfp Test Suite">
+            <directory>tests/Tnfp/</directory>
+        </testsuite>
+    </testsuites>
+    <filter>
+        <whitelist>
+            <directory suffix=".php">lib/Tnfp/</directory>
+        </whitelist>
+    </filter>
+</phpunit>
