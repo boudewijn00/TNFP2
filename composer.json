@@ -1,15 +1,15 @@
 {
-    "name": "Tnfp/Tnfp",
-    "description": "Grab events from calendar and display in kid friendly interface",
-    "keywords": ["agenda"],
-    "homepage": "http://github.com/boudewijn00/TNFP2",
-    "type": "library",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Boudewijn Overvliet",
-            "email": "boudewijn@hellodata.nl",
-            "homepage": "hellodata.nl"
+    	"name": "Tnfp/Tnfp",
+    	"description": "Grab events from calendar and display in kid friendly interface",
+    	"keywords": ["agenda"],
+    	"homepage": "http://github.com/boudewijn00/TNFP2",
+    	"type": "library",
+    	"license": "MIT",
+	"require": {
+        	"php": ">=5.3.3",
+        	"zendframework/zendframework": "2.3.*"
+	},
+        "autoload": {
+            "psr-0": {"Tnfp\\": "lib/"}
         }
-    ]
 }
