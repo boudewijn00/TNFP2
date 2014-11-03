@@ -7,11 +7,13 @@
 
 namespace Tnfp;
 
-class FooClass {
+class FooClass 
+{
  
     public $name = "";
     
-    public function __construct($name){
+    public function __construct($name)
+    {
         $this->name = $name;
     }
     
