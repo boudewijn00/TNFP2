@@ -1,0 +1,15 @@
+{
+    "name": "tnfp/tnfp",
+    "description": "Grab events from calendar and display in kid friendly interface",
+    "keywords": ["agenda"],
+    "homepage": "http://github.com/boudewijn00/TNFP2",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Boudewijn Overvliet",
+            "email": "boudewijn@hellodata.nl",
+            "homepage": "hellodata.nl"
+        }
+    ],
+}
